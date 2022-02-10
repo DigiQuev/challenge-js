@@ -1,0 +1,21 @@
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+  }
+
+
+  h2 {
+    max-width: 700px;
+    text-align: center;
+    margin: 60px auto;
+    color: rgb(38, 184, 38);
+  }
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 60px auto;
+    color: #fff;
+  }

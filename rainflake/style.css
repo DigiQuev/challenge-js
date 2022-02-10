@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	color: #fff;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+  text-align: center;
+  background-color: black;
+}
+.fa-tint {
+	color: #fff;
+	position: absolute;
+	top: 0px;
+  animation: fall linear forwards;
+}
+@keyframes fall {
+	to {
+		transform: translateY(105vh);
+	}
+}
